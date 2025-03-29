@@ -1,4 +1,7 @@
-# 📌 WhatsApp Redirect Form Generator  
+# 📌 wapish WhatsApp phising Form Generator  
+
+⚠️ Disclaimer
+🚨 For educational purposes only. Do not use for phishing, fraud, or any malicious activities. Misuse of this script is strictly prohibited.
 
 ## 🚀 What is the WhatsApp Preview Link Feature?  
 The **WhatsApp Preview Link** feature allows users to see a **preview of a shared URL**, before clicking on it, also i think it's enabled by default . When a link is sent, WhatsApp automatically **fetches metadata** (title, description, and thumbnail) and displays a preview.  
