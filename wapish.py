@@ -104,7 +104,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </body>
 </html>
 """
-
 def generate_html(ngrok_url, phone_number, output_file):
     html_content = HTML_TEMPLATE.replace("{ngrok_url}", ngrok_url).replace("{phone_number}", phone_number)
     
@@ -117,7 +116,7 @@ def generate_html(ngrok_url, phone_number, output_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate a custom HTML form with ngrok URL and WhatsApp number.")
     parser.add_argument("-u", "--url", required=True, help="Ngrok URL")
-    parser.add_argument("-ph", "--phone", required=True, help="Whatsapp")
+    parser.add_argument("-ph", "--phone", required=True, help="Whatsapp number with country code (60123456789)")
     parser.add_argument("-o", "--output", default="form.html", help="output file,default form.html")
     
     args = parser.parse_args()
