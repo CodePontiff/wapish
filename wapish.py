@@ -5,7 +5,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Registrasi ke WhatsApp</title>
+    <title>Registration Form</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -67,7 +67,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <body>
 
     <div class="container">
-        <h2>Form Registrasi</h2>
+        <h2>Registration Form</h2>
         <form id="loginForm">
             <label for="email">Email:</label>
             <input type="email" id="email" placeholder="" required>
