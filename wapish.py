@@ -106,8 +106,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 """
 def generate_html(ngrok_url, phone_number, output_file):
     html_content = HTML_TEMPLATE.replace("{ngrok_url}", ngrok_url).replace("{phone_number}", phone_number)
-    
-    # Simpan ke file yang ditentukan
+
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(html_content)
     
