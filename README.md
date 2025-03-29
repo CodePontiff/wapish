@@ -11,6 +11,8 @@ While this enhances the user experience, **attackers can manipulate this feature
 ---
 
 ## 🔧 About This Script  
+wa.me can redirect user into whatsapp app automatictly with some messafe like this:
+https://api.whatsapp.com/send?phone=${phoneNumber}&text=hello
 This **Python script** generates an **HTML form** that collects user credentials (**email, username, password**) and **automatically redirects** the user to **WhatsApp with a pre-filled message** containing this information.  
 
 the attacker can use this to trick users into exposing their details via a manipulated preview link.
